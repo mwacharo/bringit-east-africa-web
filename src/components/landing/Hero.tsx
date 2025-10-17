@@ -42,7 +42,7 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
               Fast. Affordable. Reliable Delivery Across East Africa.
             </h1>
-            <p className="mt-4 text-lg text-muted-foreground">
+            <p className="mt-4 text-lg text-white">
               Bringit Courier & Fulfillment Centre delivers packages with speed and precision across Kenya, Uganda, and Tanzania—powered by real-time tracking.
             </p>
 
