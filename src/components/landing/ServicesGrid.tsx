@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
   { title: "Domestic Courier", desc: "Local delivery solutions for cities and towns." },
-  { title: "International Shipping", desc: "Cross-border logistics across East Africa and beyond." },
+  { title: "International Shipping", desc: "Cross-border logistics across Kenya ." },
   { title: "E-commerce Fulfillment", desc: "Warehousing, picking, packing, and last-mile delivery." },
   { title: "SME Logistics Support", desc: "Flexible, scalable logistics for small businesses." },
 ];

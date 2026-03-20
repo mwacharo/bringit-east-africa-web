@@ -7,7 +7,7 @@ export default function About() {
         <div className="order-2 md:order-1">
           <h2 className="text-3xl font-bold">About Bringit</h2>
           <p className="mt-4 text-muted-foreground">
-            We are a premium logistics partner providing same-day courier and end-to-end fulfillment across East Africa. Our mission is to make delivery fast, affordable, and trustworthy for businesses and individuals alike.
+            We are a premium logistics partner providing same-day courier and end-to-end fulfillment across Kenya. Our mission is to make delivery fast, affordable, and trustworthy for businesses and individuals alike.
           </p>
           <div className="mt-8 grid grid-cols-3 gap-4">
             <div className="rounded-lg border p-4 text-center">

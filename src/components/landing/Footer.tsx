@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container mx-auto grid gap-8 md:grid-cols-4">
         <div>
           <div className="text-xl font-bold">Bringit Courier & Fulfillment</div>
-          <p className="mt-2 text-sm text-muted-foreground">Fast, affordable, reliable delivery across East Africa.</p>
-          <p className="mt-4 text-sm">Email: info@bringitafrica.com<br/>Phone: +254 105166107</p>
+          <p className="mt-2 text-sm text-muted-foreground">Fast, affordable, reliable delivery across Kenya.</p>
+          <p className="mt-4 text-sm">Email: info@bringitafrica.com<br/>Phone: +254 105166107 </p>
         </div>
         <div>
           <div className="font-semibold">Services</div>

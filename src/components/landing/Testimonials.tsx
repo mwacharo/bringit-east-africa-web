@@ -5,17 +5,17 @@ import avatar3 from "@/assets/avatar3.jpg";
 
 const testimonials = [
   {
-    name: "Amina, Nairobi",
+    name: "Alpha Herb, Nairobi",
     text: "Bringit transformed our online store delivery times. Customers are happier than ever!",
     avatar: avatar1,
   },
   {
-    name: "John, Kampala",
+    name: "John, USA",
     text: "Reliable and affordable. Tracking keeps our team and clients in the loop.",
     avatar: avatar2,
   },
   {
-    name: "Grace, Dar es Salaam",
+    name: "Grace, Nigeria",
     text: "Excellent cross-border logistics. Highly recommend for SMEs.",
     avatar: avatar3,
   },

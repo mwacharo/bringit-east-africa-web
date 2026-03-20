@@ -40,10 +40,10 @@ export default function Hero() {
         <div className="container mx-auto flex min-h-[70vh] items-center py-16">
           <div className="max-w-2xl animate-enter">
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              Fast. Affordable. Reliable Delivery Across East Africa.
+              Fast. Affordable. Reliable Delivery Across Kenya.
             </h1>
             <p className="mt-4 text-lg text-white">
-              Bringit Courier & Fulfillment Centre delivers packages with speed and precision across Kenya, Uganda, and Tanzania—powered by real-time tracking.
+              Bringit Courier & Fulfillment Centre delivers packages with speed and precision across Kenya ,powered by real-time tracking.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -68,8 +68,8 @@ export default function Hero() {
               </div>
               <div className="mt-4 flex items-center gap-4 text-sm text-muted-foreground">
                 <span className="inline-flex items-center gap-1"><MapPin className="h-4 w-4" /> Kenya</span>
-                <span className="inline-flex items-center gap-1"><MapPin className="h-4 w-4" /> Uganda</span>
-                <span className="inline-flex items-center gap-1"><MapPin className="h-4 w-4" /> Tanzania</span>
+                {/* <span className="inline-flex items-center gap-1"><MapPin className="h-4 w-4" /> Uganda</span> */}
+                {/* <span className="inline-flex items-center gap-1"><MapPin className="h-4 w-4" /> Tanzania</span> */}
               </div>
             </form>
           </div>

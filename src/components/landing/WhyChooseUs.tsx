@@ -4,7 +4,7 @@ const benefits = [
   "Real-time tracking technology",
   "Insurance coverage on all packages",
   "24/7 customer support",
-  "Established network across East Africa",
+  "Established network across Kenya",
   "Competitive pricing structure",
   "Reliable delivery timeframes",
 ];
