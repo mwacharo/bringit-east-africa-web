@@ -1,11 +1,51 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+
+
+
 const services = [
-  { title: "Domestic Courier", desc: "Local delivery solutions for cities and towns." },
-  { title: "International Shipping", desc: "Cross-border logistics across Kenya ." },
-  { title: "E-commerce Fulfillment", desc: "Warehousing, picking, packing, and last-mile delivery." },
-  { title: "SME Logistics Support", desc: "Flexible, scalable logistics for small businesses." },
+{
+title: "Courier & Parcel Delivery",
+desc: "Fast, secure, and reliable delivery solutions for documents, parcels, and business shipments with real-time tracking."
+},
+{
+title: "International Shipping",
+desc: "Seamless cross-border logistics connecting businesses and customers through efficient global shipping networks."
+},
+{
+title: "E-commerce Fulfillment",
+desc: "End-to-end order fulfillment including inventory management, picking, packing, shipping, and returns handling."
+},
+{
+title: "Warehousing & Storage",
+desc: "Flexible warehousing solutions with inventory visibility, secure storage, and scalable capacity for growing businesses."
+},
+{
+title: "Cash on Delivery (COD)",
+desc: "Trusted payment collection services that help e-commerce businesses increase conversions and customer confidence."
+},
+{
+title: "Express & Same-Day Delivery",
+desc: "Priority delivery services designed for urgent shipments requiring speed, reliability, and guaranteed handling."
+},
+{
+title: "Medical & Healthcare Logistics",
+desc: "Specialized transportation for medical supplies, pharmaceuticals, and healthcare equipment with strict handling standards."
+},
+{
+title: "Packaging Solutions",
+desc: "Professional packaging services that protect products, enhance presentation, and improve the customer unboxing experience."
+},
+{
+title: "Order Fulfillment Services",
+desc: "Complete fulfillment operations from order processing to final delivery, helping businesses scale efficiently."
+},
+{
+title: "SME & Enterprise Logistics",
+desc: "Customized logistics solutions for startups, SMEs, and large enterprises with flexible and scalable operations."
+}
 ];
+
 
 export default function ServicesGrid() {
   return (

@@ -8,8 +8,10 @@ const navItems = [
   { label: "About Us", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Tracking", href: "#tracking" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Faq", href: "#faq" },
   { label: "Contact Us", href: "#contact" },
+  // request a quote
+  // { label: "Request a Quote", href: "#quote" },
 ];
 
 export default function Header() {
@@ -32,7 +34,10 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <Button variant="cta" className="">Request a Quote</Button>
+          {/* <Button variant="cta" className="">Request a Quote</Button> */}
+          <a href="#quote">
+  <Button variant="cta">Request a Quote</Button>
+</a>
         </div>
 
         <button

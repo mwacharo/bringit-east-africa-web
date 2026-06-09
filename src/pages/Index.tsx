@@ -7,6 +7,9 @@ import WhyChooseUs from "@/components/landing/WhyChooseUs";
 import Testimonials from "@/components/landing/Testimonials";
 import CTABanner from "@/components/landing/CTABanner";
 import Footer from "@/components/landing/Footer";
+import Contact from "@/components/landing/Contact";
+import Quote from "@/components/landing/Quote";
+import Faq from "@/components/landing/Faq";
 
 const Index = () => {
   return (
@@ -20,6 +23,9 @@ const Index = () => {
         <WhyChooseUs />
         <Testimonials />
         <CTABanner />
+        <Contact />
+        <Quote />
+        <Faq />
       </main>
       <Footer />
     </div>
