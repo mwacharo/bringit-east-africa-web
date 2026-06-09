@@ -23,9 +23,11 @@ const COUNTRIES = [
   "Tanzania",
   "Rwanda",
   "Ethiopia",
-  "Nigeria",
+//   "Nigeria",
   "Ghana",
   "South Africa",
+  "Zimbabwe",
+  "Zambia",
 ];
 
 const REACH_OPTIONS = ["Call", "Email", "SMS", "WhatsApp"] as const;

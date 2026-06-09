@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
+import FloatingWhatsApp from "./components/landing/FloatingWhatsApp";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -14,6 +16,11 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+
+
+              {/* Floating WhatsApp appears globally */}
+        <FloatingWhatsApp />
+
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
