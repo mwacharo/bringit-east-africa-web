@@ -75,8 +75,10 @@ export default function Faq() {
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center">
           <h2 className="text-4xl font-bold tracking-tight">
-            Frequently Asked Questions
-          </h2>
+Merchant Logistics & Fulfillment FAQs          </h2>
+
+<h3 className="mt-4 text-lg text-muted-foreground">
+Find answers about order fulfillment, warehousing, courier delivery, inventory management, Cash on Delivery (COD), e-commerce shipping, international logistics, and fulfillment center services.          </h3>
 
           <p className="mt-4 text-lg text-muted-foreground">
             Learn how Bringit helps businesses streamline courier delivery,
