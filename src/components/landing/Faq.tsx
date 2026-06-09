@@ -1,4 +1,3 @@
-
 import {
   Accordion,
   AccordionContent,
@@ -73,42 +72,72 @@ export default function Faq() {
   return (
     <section id="faq" className="py-20">
       <div className="container mx-auto max-w-4xl px-4">
-        <div className="text-center">
-          <h2 className="text-4xl font-bold tracking-tight">
-Merchant Logistics & Fulfillment FAQs          </h2>
 
-<h3 className="mt-4 text-lg text-muted-foreground">
-Find answers about order fulfillment, warehousing, courier delivery, inventory management, Cash on Delivery (COD), e-commerce shipping, international logistics, and fulfillment center services.          </h3>
+        {/* Header */}
+        <div className="flex flex-wrap items-end justify-between gap-6 mb-16 pb-10 border-b border-border">
+          <div className="flex-1 min-w-[280px]">
+            <span className="inline-block text-[11px] font-bold tracking-[0.15em] uppercase text-primary mb-4">
+              Help Center
+            </span>
+            <h2 className="text-4xl font-bold tracking-tight leading-tight">
+              Merchant Logistics &amp; Fulfillment
+              <br />
+              <span className="text-primary">FAQs</span>
+            </h2>
+          </div>
 
-          <p className="mt-4 text-lg text-muted-foreground">
-            Learn how Bringit helps businesses streamline courier delivery,
-            warehousing, e-commerce fulfillment, inventory management,
-            cash-on-delivery collection, packaging, and international shipping.
+          <p className="flex-1 min-w-[240px] max-w-sm text-[15px] leading-relaxed text-muted-foreground">
+            Everything you need to know about fulfillment, warehousing, COD,
+            e-commerce shipping, and international logistics.
           </p>
         </div>
 
-        <Accordion
-          type="single"
-          collapsible
-          className="mt-12 w-full"
-        >
+        {/* Accordion */}
+        <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
             <AccordionItem
               key={index}
               value={`item-${index}`}
+              className="border-b border-border"
             >
-              <AccordionTrigger className="text-left">
-                {faq.question}
+              <AccordionTrigger className="flex items-center gap-5 py-6 text-left hover:no-underline group">
+                {/* Index number */}
+                <span className="shrink-0 w-8 text-xs font-bold tracking-wide text-primary opacity-50 tabular-nums">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
+                {/* Question text */}
+                <span className="flex-1 text-base font-semibold leading-snug group-hover:text-primary transition-colors duration-200">
+                  {faq.question}
+                </span>
               </AccordionTrigger>
 
-              <AccordionContent className="text-muted-foreground leading-relaxed">
-                {faq.answer}
+              <AccordionContent className="pl-[52px] pb-6">
+                <p className="text-[15px] leading-relaxed text-muted-foreground border-l-2 border-primary pl-4">
+                  {faq.answer}
+                </p>
               </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
+
+        {/* Footer CTA */}
+        <div className="mt-16 p-8 rounded-xl border border-border bg-muted/40 flex flex-wrap items-center justify-between gap-5">
+          <div>
+            <p className="text-base font-semibold mb-1">Still have questions?</p>
+            <p className="text-sm text-muted-foreground">
+              Our logistics team is ready to help you get started.
+            </p>
+          </div>
+          <a
+            href="#contact"
+            className="inline-block bg-primary text-primary-foreground text-sm font-bold tracking-wide px-7 py-3 rounded-md no-underline hover:opacity-90 transition-opacity shrink-0"
+          >
+            Talk to us →
+          </a>
+        </div>
+
       </div>
     </section>
   );
 }
-
