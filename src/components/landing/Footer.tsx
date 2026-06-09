@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -29,9 +30,24 @@ export default function Footer() {
         <div>
           <div className="font-semibold">Follow Us</div>
           <div className="mt-2 flex items-center gap-3 text-muted-foreground">
-            <a href="#" aria-label="Facebook"><Facebook /></a>
-            <a href="#" aria-label="Instagram"><Instagram /></a>
-            <a href="#" aria-label="Twitter"><Twitter /></a>
+            <a href="https://www.facebook.com/people/Bringit-Courier-Fulfillment-Centre/61587183340172/" aria-label="Facebook"><Facebook /></a>
+            {/* <a href="https://www.instagram.com/bringitcourier/" aria-label="Instagram"><Instagram /></a> */}
+            {/* <a href="https://twitter.com/BringitCourier" aria-label="Twitter"><Twitter /></a> */}
+
+            {/* add tiktok */}
+            {/* <a href="https://www.tiktok.com/@bringitcourier" aria-label="TikTok"><TikTok /></a> */
+
+
+  <a
+    href="https://www.tiktok.com/@bringitafrica?is_from_webapp=1&sender_device=pc"
+    aria-label="TikTok"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaTiktok size={18} />
+  </a>
+            
+            }
           </div>
           <form className="mt-4" onSubmit={(e)=>e.preventDefault()}>
             <label className="text-sm" htmlFor="newsletter">Newsletter</label>
