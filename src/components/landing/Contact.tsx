@@ -199,6 +199,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p style={styles.quickLabel}>Phone</p>
+                                    <p style={styles.quickValue}>🇰🇪 +254 116349137</p>
+
                   <p style={styles.quickValue}>🇰🇪 +254 741821113</p>
                   {/* <p style={styles.quickValue}>🇷🇼 +250 700 000 000</p> */}
                 </div>
@@ -214,8 +216,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <p style={styles.quickLabel}>Offices</p>
-                  <p style={styles.quickValue}>🇰🇪 P.O BOX 00724-00100, Nairobi</p>
-                  {/* <p style={styles.quickValue}>🇷🇼 Kigali, Rwanda</p> */}
+<p style={styles.quickValue}>
+  🇰🇪 Vision Plaza, Mombasa Road, Nairobi
+</p>                  {/* <p style={styles.quickValue}>🇷🇼 Kigali, Rwanda</p> */}
                 </div>
               </div>
             </div>

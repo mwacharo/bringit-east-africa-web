@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="text-xl font-bold">Bringit Courier & Fulfillment</div>
           <p className="mt-2 text-sm text-muted-foreground">Fast, affordable, reliable delivery across Kenya.</p>
-          <p className="mt-4 text-sm">Email: info@bringitafrica.com<br/>Phone: +254 741 821 113 </p>
+          <p className="mt-4 text-sm">Email: info@bringitafrica.com<br/>Phone: +254 741 821 113 </p><br/>Phone : +254 116349137
         </div>
         <div>
           <div className="font-semibold">Services</div>
